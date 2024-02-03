@@ -115,9 +115,17 @@ html {
   width: 25px;
   display: block;
   margin: 25px 5px;
+  color: #fff;
   font-size: 1.6em;
   transition: 0.3s ease;
-  color: #fff;
+}
+
+.media-icons i:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.media-icons a:hover {
+  transform: scale(1.3);
 }
 
 

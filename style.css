@@ -108,7 +108,6 @@ html {
   right: 5%;
   line-height: 15px;
   bottom: 8%;
-  color: #fff;
   position: fixed;
 }
 
@@ -116,7 +115,9 @@ html {
   width: 25px;
   display: block;
   margin: 25px 5px;
-  font-size: 30px;
+  font-size: 1.6em;
+  transition: 0.3s ease;
+  color: #fff;
 }
 
 

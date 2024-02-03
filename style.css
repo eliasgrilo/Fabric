@@ -207,6 +207,21 @@ html {
    display: none;
 }
 
+  .media-icons {
+  line-height: 15px;
+  margin-left: 5px;
+  right: 15px;
+  line-height: 15px;
+  bottom: 30%;
+  position: fixed;
+}
+
+  .media-icons i {
+  width: 25px;
+  display: block;
+  margin: 25px 5px;
+  font-size: 30px;
+}
   .navigation {
     display: none;
   }
@@ -281,7 +296,7 @@ html {
   
   .page-footer .buttons button {
     font-size: 13px;
-    padding: 7px 80px;
+    padding: 7px 70px;
     border-radius: 5px;
     border: none;
     cursor: pointer;

@@ -102,6 +102,24 @@ html {
   height: 100%;
 }
 
+.media-icons {
+  line-height: 15px;
+  margin-left: 5px;
+  right: 5%;
+  line-height: 15px;
+  bottom: 8%;
+  color: #fff;
+  position: fixed;
+}
+
+.media-icons i {
+  width: 25px;
+  display: block;
+  margin: 25px 5px;
+  font-size: 30px;
+}
+
+
 .page-info h1 {
   letter-spacing: 1px;
   font-size: 40px;

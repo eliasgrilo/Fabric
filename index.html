@@ -36,7 +36,7 @@
 
     <ul class="pages">
       <li>
-        <video src="Images/Model-Y.mp4" playsinline loop muted autoplay></video>
+        <video src="Images/Model-Y.mp4" id="video" playsinline loop muted autoplay></video>
         <div id="model-y-info" class="page-info">
           <h1>We are Chefs</h1>
           <p>Epecializing in French Haute Cuisine!</p>
@@ -110,7 +110,7 @@
       </li>
 
       <li>
-        <video src="Images/Experience-Tesla.mp4" playsinline loop muted autoplay></video>
+        <video src="Images/Experience-Tesla.mp4" id="video" playsinline loop muted autoplay></video>
         <div class="page-info">
           <h1>Experience The Fabric</h1>
           <p>Schedule Today</p>
@@ -141,6 +141,22 @@
         menuBtn.classList.toggle("active");
         navigation.classList.toggle("active");
       });
+
+      const video = document.getElementById("video");
+      video.addEventListener("play", handleFirstPlay, false);
+      
+      let hasPlayed = false;
+      function handleFirstPlay(event) {
+        if (!hasPlayed) {
+          hasPlayed = true;
+      
+          // Remove listener so this only gets called once.
+          const vid = event.target;
+          vid.removeEventListener("play", handleFirstPlay);
+      
+          // Start whatever you need to do after first playback has started
+        }
+      }
     </script>
   </body>
 </html>

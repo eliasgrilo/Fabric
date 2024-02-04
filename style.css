@@ -20,7 +20,8 @@ html {
   align-items: center;
   padding-right: 30px;
   padding-left: 20px;
-  height: 100svh;
+  height: 80%;
+  width: 100%;
   color: #fff;
   z-index: 1000;
 }

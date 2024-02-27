@@ -31,7 +31,7 @@
     </nav>
     <ul class="pages">
       <li>
-        <video src="https://ik.imagekit.io/tsadb415v5/22.mp4?updatedAt=1709057231909" id="video" playsinline loop muted autoplay></video>
+        <video src="https://ik.imagekit.io/tsadb415v5/22.mp4?updatedAt=1709057231909" id="videofront" playsinline loop muted autoplay></video>
         <div id="model-y-info" class="page-info">
           <h1>We are Chefs!</h1>
           <p>Epecializing in French Haute Cuisine!</p>
@@ -119,6 +119,27 @@
     </ul>
 
     <script>
+    
+      window.onload = (event) => { myFunction( event ) };
+
+      function myFunction( event ) 
+      {
+      alert("Screen Width is: " + screen.width);
+  
+      let videofront = document.getElementById("videofront");
+ 
+      //# if BIGGER THAN the 800 pixels
+      if ( screen.width > 800 ) { videofront.src = "https://imagekit.io/dashboard/media-library/detail/65bedd6788c257da33068514"; }
+ 
+      //# if SMALLER THAN or EQUAL-TO the 800 pixels
+      if ( screen.width <= 800 ) { videofront.src = "https://ik.imagekit.io/tsadb415v5/22.mp4?updatedAt=1709057231909"; }
+ 
+      //# load URL (for playback)
+      videofront.load();
+  
+      }
+    
+    
       setTimeout(() => {
         document.getElementById("model-y-info").style.opacity = 1;
         document.getElementById("model-y-info").style.transform = "translateY(0)";

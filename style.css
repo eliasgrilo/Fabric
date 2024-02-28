@@ -238,7 +238,7 @@ html {
     align-items: center;
     border-radius: 5px;
     box-shadow: 0 5px 25px rgb(1 1 1 /20%);
-    transition: 2,0s;
+    transition: 4,0s ease;
 }
 
   .menu-btn{

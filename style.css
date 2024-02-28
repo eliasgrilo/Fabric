@@ -238,6 +238,7 @@ html {
     align-items: center;
     border-radius: 5px;
     box-shadow: 0 5px 25px rgb(1 1 1 /20%);
+    transition: 1,0s ease;
 }
 
   .menu-btn{
@@ -247,7 +248,7 @@ html {
     width: 40px;
     height: 40px;
     cursor: pointer;
-    transition: 0,4s ease;
+    transition: 0,3s ease;
 }
 
 
@@ -256,7 +257,7 @@ html {
     background: url(Images/close.png)no-repeat;
     background-size: 20px;
     background-position: center;
-    transition: 0.4s ease;
+    transition: 0.3s ease;
   }
 
   .pages li video,

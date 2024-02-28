@@ -22,7 +22,7 @@ html {
   padding-left: 20px;
   height: 80px;
   width: 100%;
-  color: #fff;
+  color: white;
   z-index: 1000;
 }
 
@@ -114,7 +114,7 @@ html {
 }
 
 .page-info.model-x {
-  color: #333;
+  color: white;
 }
 
 .page-info.model-x p {

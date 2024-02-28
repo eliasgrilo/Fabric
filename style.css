@@ -222,13 +222,13 @@ html {
 }
 
   .nav-container ul li {
-    color: #fff;
+    color: #222;
     font-size: 1.5em;
     margin: 20px;
 }
 
   .nav-container ul {
-    background: black;
+    background: #fff;
     width: 600px;
     max-width: 600px;
     margin: 20px;

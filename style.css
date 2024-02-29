@@ -223,8 +223,9 @@ html {
 
   .nav-container ul li {
     color: #222;
-    font-size: 1.2em;
-    margin: 20px;
+    font-size: 1.4em;
+    font-weight: 600;
+    margin: 15px;
 }
 
   .nav-container ul {

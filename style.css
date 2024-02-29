@@ -179,7 +179,6 @@ html {
     padding: 12px 20px;
 }
 
-  
 
   .pages .page-info,
   .pages .page-footer {
@@ -237,7 +236,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 50px;
     box-shadow: 0 5px 25px rgb(1 1 1 /20%);
 }
 

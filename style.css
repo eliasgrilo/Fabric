@@ -222,7 +222,7 @@ html {
 }
 
   .nav-container ul li {
-    color: #222;
+    color: red;
     font-size: 1.4em;
     font-weight: 500;
     margin: 15px;

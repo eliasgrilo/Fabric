@@ -22,7 +22,7 @@ html {
   padding-left: 20px;
   height: 80px;
   width: 100%;
-  color: white;
+  color: #fff;
   z-index: 1000;
 }
 
@@ -46,7 +46,7 @@ html {
 }
 
 .logo {
-  color: white;
+  color: #fff;
   font-size: 1.5em;
   font-weight: 600;
   letter-spacing: .3rem;
@@ -88,7 +88,7 @@ html {
   justify-content: space-between;
   padding-top: 150px;
   padding-bottom: 10px;
-  color: white;
+  color: #fff;
   scroll-snap-align: start;
 }
 
@@ -114,7 +114,7 @@ html {
 }
 
 .page-info.model-x {
-  color: white;
+  color: #333;
 }
 
 .page-info.model-x p {
@@ -222,10 +222,9 @@ html {
 }
 
   .nav-container ul li {
-    color: red;
-    font-size: 1.5em;
-    font-weight: 800;
-    margin: 15px;
+    color: #222;
+    font-size: 1.2em;
+    margin: 20px;
 }
 
   .nav-container ul {
@@ -237,7 +236,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 150px;
+    border-radius: 5px;
     box-shadow: 0 5px 25px rgb(1 1 1 /20%);
 }
 
